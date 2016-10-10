@@ -1,0 +1,5 @@
+stringtools: StrWork.c
+	gcc  StrWork.c -o stringTests
+
+run: stringTests
+	./stringTests
